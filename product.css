@@ -1,0 +1,156 @@
+*{
+    box-sizing:border-box;
+      padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: rgb(227, 248, 248);
+  }
+  /*topber*/
+  .topber {
+    width:100%;
+      background:#f1f3f5;
+      padding: 10px;
+      position:sticky;
+     top:0;
+      z-index: 1;
+  }
+  .menu{
+   float: right;
+      width: 65%;
+      text-align:justify;
+    padding-top: 20px;
+  }
+  .menu a{
+    color:rgb(7, 7, 7);
+      padding:15px 15px;
+      text-decoration: none;
+   font-size: 20px;
+  }
+ 
+  
+  #up{
+    background:#A8870C;
+     color: #333;
+       text-decoration: none;
+         font-size: 20px;
+         margin:inherit;
+       border: 1px solid #A8870C;
+     border-radius: 12px;
+   padding: 5px;
+  }
+  /* mouse hover link */
+a:hover {
+    color: blue;
+      background:rgb(196, 157, 10);
+    transition-delay:.3s;
+    border-radius: 12px;
+  }
+  #up:hover{
+    color: #003B64;
+      background:rgb(196, 157, 10);
+    font-size:150%;
+ }
+ .products{ 
+ width: 80%; 
+ display: flex;
+ padding: auto;
+ margin-left:25px;
+    
+ }
+ .product{
+ width: 33.33%;
+ display: inline-block;
+ background: #f6f7f8;
+color: rgb(3, 2, 1);
+margin: 10px;
+padding: 15px;
+ }
+ h2{
+  margin: 10px 0px;
+ }
+ button{
+ font-size: 18px;
+ display:block
+ text-align: center;
+ padding: 10px;
+ margin-top:10px;
+ margin-left:60px;
+ background: rgb(227, 248, 248);
+ color: #0000ff;
+  border-radius:12px;
+  
+ }
+ button:hover{
+  background-color: #eedf0c;
+font-size: 120%;
+
+ }
+ footer {
+ width: 100%;
+ padding: 25px;
+ background-color: #f1f3f5;
+ text-align: justify;
+ margin: 30px 0;
+ }
+ @media only screen and (max-width:767px){
+  body{
+    background-color: rgba(169, 224, 217, 0.514);
+    }
+    .topber img{
+      height:80px;
+      width:300px;
+
+    }
+    
+    .menu{
+      float:none;
+         width:40%;
+         text-align:block;
+       padding-top:0px;
+       background-color: rgb(229, 243, 243);
+     }
+     .menu a{
+         padding:10px 10px;
+       display: block;
+     }
+     .products{ 
+      display:block;
+     
+      }
+      .product{
+      width:100%;
+      display:block;
+      margin: 0;
+      background: #78a9db;
+      margin: 20px;
+      border-radius:12px;
+      }
+}
+/* For pad: */
+@media only screen and (min-width: 768px) and (max-width: 959px){
+
+  .menu{
+       width: 80%; 
+   }
+   .menu a{
+       padding:10px;
+    font-size: 18px;
+   }
+   .products{ 
+    width: 100%; 
+    margin:5px;
+       
+    }
+    .product{
+    width: 30%;
+   margin: 10px;
+   padding: 10px;
+   background-color: #95fce5;
+    }
+
+    
+    .product img{
+      width: 240px;
+    }
+  }
